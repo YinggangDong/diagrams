@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-02-23T09:28:49.082Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="uqKEBp_12t86RmIgwXuE" version="14.4.2" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">5Vjbcps6FP0azZw+OGMQyPBofEjTaTPtNL1NXzoyyIZURlSWYztf3y2QuQTsNKd2cjJ5wfLSRmyttbSFQHiy2LyWNE8uRcw4sofxBuF/kW17xIOrBrYlgH2nBOYyjUvIqoGr9JYZcGjQVRqzZStQCcFVmrfBSGQZi1QLo1KKdTtsJnj7qTmdsw5wFVHeRb+msUrMtOxRjV+wdJ7snmwRv+xZ0F2wmckyobFYNyAcIjyRQqiytdhMGNfc7Xgp7zvf01slJlmm/uSGwP72fuDfpF8vRrffJz/eJp8unYFR54bylZkwsgmH8YKpTlltDQ/k10rnGfA0Y4PETHgMIRaGp7p1ALTm5rcYZiYgu76RdMdgWehdjOPkm+4oF0Jd5YCEHvJ95I9RSJAXIP9cN/wJCgAZadxzUOii8RB5RHfphqcRz0UB1jFwDaqkgKQyr3auAE9rzG6lbUuxymKmuRxC9zpJFbvKaaR71+B8wBK14PDPgibl6TyDdgTaMKlnm3I+EVzIYjAcU+bNIsCXSoqfrNFDIo9NZ1UCTXmN4jdMKrZpQEbu10wsmJJbCDG92DjPLL2dEde1jyssaXjYMRg1S2deDVy7CxrGYHvM9vF6TS6+3366tL8RThYserMa7NZ0g1UWw2ozf4VUiZiLjPKwRoM273XMOyFyw/Y1U2prSgddKdHWYi+RS7GSETuUbxmnczxIt2ScqvSmXTH62DO3fhBpsSh2MpE7OpE7Aigq50yZu2oNxlLSbSMs1wHLhz+nlrQcsRa4muNfaH6owByzVNTL/iGL3KQiT4+8n17r/ckeiuk1XIsJDjO2hmvZ9c+rI9ccXShS2MnGpkPpBdOpRC7zYqevEnn2FBNynEpkDdvWs0i3FlVYsxadrhi5e425zGn2Fz7s2LvamA44ELDysY9vzKdwHbPAd6M+1/lkhOmRXOf8ietGj+o60nGdLgfaIeco8PV7TmChsVUgIfJDFDooCPU7z36VrP+g0jHYte9sJ24Pu7iHXXwqckcdcs/Ozp4Bcd5TE9c9BTwL4rD11MT5z5Q453TEfV4yWb3rcDplvLx1uLFmNjaT4TD7BI7iTLaP5xldGM6+UJnSKTBY4IdfMe3G5I1qDfaBI9WmuL3pZCJjd3YoA927ty3SOC4OKX2aCoie8eLEn0Acy450qHPvL7u9b1IPlxL+NtS8R137VOriF62u5/4v1MWnUtd5yerink8yT6Gucyp13Ret7qNWZoDqb8nl15v6gzwOfwM=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-23T09:35:07.261Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="LI7xIGKZHzI9gqTv5pGK" version="14.4.2" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B2XO-9viWH7zZC_KhTM4-8" value="&lt;b style=&quot;line-height: 130%&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;HotSpot虚拟机的堆栈关系&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="30" y="20" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BRjw6HZzTM2X6l6mecIu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;栈&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Object obj = new Object()" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="100" y="160" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-5" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;堆&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="400" y="160" width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-6" value="obj对象实例" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-7" value="..." style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-8" value="..." style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="310" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BRjw6HZzTM2X6l6mecIu-9" value="..." style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="420" y="340" width="130" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="0x1f23" placeholders="1" name="Variable" id="BRjw6HZzTM2X6l6mecIu-12">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+            <mxGeometry x="350" y="250" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="0x2f23" placeholders="1" name="Variable" id="BRjw6HZzTM2X6l6mecIu-13">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+            <mxGeometry x="350" y="285" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="0x3f23" placeholders="1" name="Variable" id="BRjw6HZzTM2X6l6mecIu-14">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+            <mxGeometry x="350" y="320" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="0x4f23" placeholders="1" name="Variable" id="BRjw6HZzTM2X6l6mecIu-15">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" parent="1" vertex="1">
+            <mxGeometry x="350" y="350" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
