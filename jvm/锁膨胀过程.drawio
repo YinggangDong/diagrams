@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:43:26.672Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="rijk9RnGMZ1RJDju3dck" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:43:45.018Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="30Ma_jFaecmUU4z1GwHu" version="14.4.3" type="github">
   <diagram id="EUVJfp99UCqNtmatN9Db" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -152,7 +152,7 @@
         <mxCell id="WWVrkGQW8vriv1KRbUgk-70" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;栈&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;text-align: center&quot;&gt;创建Lock Record 对象&lt;br&gt;1.拷贝了Mark Word的信息&lt;br&gt;2.有 Owner 指针指向加锁对象&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="460" y="60" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WWVrkGQW8vriv1KRbUgk-71" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;mark word&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;1.锁标记 ：10&lt;br&gt;2.指向互斥锁 Monitor 对象 的指针" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-71" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;mark word&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;1.锁标记 ：10&lt;br&gt;2.指向互斥锁 Monitor 对象的指针" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
           <mxGeometry x="660" y="210" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-72" value="偏向锁膨胀过程" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
