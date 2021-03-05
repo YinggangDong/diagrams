@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T05:46:35.476Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="_CCS_HDzACnNW6e6ebDI" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T05:47:06.691Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="O5J3eDKCo_2lWXfmVQEU" version="14.4.3" type="github">
   <diagram id="EUVJfp99UCqNtmatN9Db" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="WWVrkGQW8vriv1KRbUgk-1" value="锁膨胀过程" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WWVrkGQW8vriv1KRbUgk-2" value="无锁态" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-2" value="无锁态" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="30" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WWVrkGQW8vriv1KRbUgk-4" value="偏向锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-4" value="偏向锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-5" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
@@ -22,13 +22,13 @@
         <mxCell id="WWVrkGQW8vriv1KRbUgk-6" value="同一线程多次获得锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="140" y="120" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WWVrkGQW8vriv1KRbUgk-12" value="轻量级锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-12" value="轻量级锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-14" value="多个线程交替执行&lt;br&gt;不存在竞争情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="350" y="125" width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WWVrkGQW8vriv1KRbUgk-17" value="重量级锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-17" value="重量级锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="690" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-19" value="多个线程同时竞争锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
