@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T06:09:53.873Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="nd4iAllrwP7SQyI2LsX-" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:10:03.825Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="m_u2gohfIa3kQrFz-hIZ" version="14.4.3" type="github">
   <diagram id="EUVJfp99UCqNtmatN9Db" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,81 +8,152 @@
           <mxGeometry x="40" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-2" value="无锁态" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="30" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-4" value="偏向锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="260" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="260" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-5" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="179" as="sourcePoint" />
-            <mxPoint x="230" y="179" as="targetPoint" />
+            <mxPoint x="180" y="399" as="sourcePoint" />
+            <mxPoint x="230" y="399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-6" value="同一线程多次获得锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="140" y="120" width="130" height="30" as="geometry" />
+          <mxGeometry x="140" y="340" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="210" as="targetPoint" />
+            <mxPoint x="90" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="540" y="260" />
-              <mxPoint x="90" y="260" />
+              <mxPoint x="540" y="480" />
+              <mxPoint x="90" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-12" value="轻量级锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-14" value="多个线程交替执行&lt;br&gt;不存在竞争情况" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="350" y="125" width="170" height="20" as="geometry" />
+          <mxGeometry x="350" y="345" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-17" value="重量级锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="690" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="690" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-19" value="多个线程同时竞争锁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="570" y="130" width="170" height="20" as="geometry" />
+          <mxGeometry x="570" y="350" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-23" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="179.5" as="sourcePoint" />
-            <mxPoint x="460" y="179.5" as="targetPoint" />
+            <mxPoint x="410" y="399.5" as="sourcePoint" />
+            <mxPoint x="460" y="399.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-24" value="" style="shape=flexArrow;endArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="620" y="179.5" as="sourcePoint" />
-            <mxPoint x="670" y="179.5" as="targetPoint" />
+            <mxPoint x="620" y="399.5" as="sourcePoint" />
+            <mxPoint x="670" y="399.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-26" value="" style="endArrow=classic;html=1;fontSize=14;exitX=0.417;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-17" target="WWVrkGQW8vriv1KRbUgk-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="730" y="260" as="sourcePoint" />
-            <mxPoint x="130" y="210" as="targetPoint" />
+            <mxPoint x="730" y="480" as="sourcePoint" />
+            <mxPoint x="130" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="740" y="290" />
-              <mxPoint x="60" y="290" />
+              <mxPoint x="740" y="510" />
+              <mxPoint x="60" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-28" value="竞争的 Thread 不存活后，重量级锁会变更为无锁态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="219" y="300" width="390" height="20" as="geometry" />
+          <mxGeometry x="219" y="520" width="390" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-29" value="交替执行的 Thread 不存活后，轻量级锁会变更为无锁态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="130" y="260" width="390" height="20" as="geometry" />
+          <mxGeometry x="130" y="480" width="390" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-30" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=14;exitX=0.75;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="260" as="sourcePoint" />
-            <mxPoint x="350" y="210" as="targetPoint" />
+            <mxPoint x="300" y="480" as="sourcePoint" />
+            <mxPoint x="350" y="430" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="120" y="230" />
-              <mxPoint x="350" y="230" />
+              <mxPoint x="120" y="450" />
+              <mxPoint x="350" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="WWVrkGQW8vriv1KRbUgk-31" value="偏向锁不会变更为无锁态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="104.5" y="230" width="201" height="20" as="geometry" />
+          <mxGeometry x="104.5" y="450" width="201" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-40" target="WWVrkGQW8vriv1KRbUgk-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-40" value="尝试获取偏向锁" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="109.5" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-43" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;mark word 内容&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;1.锁标记 ：是否偏向1 &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 锁状态：01&lt;br&gt;2.偏向线程id" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="251" y="210" width="148" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-46" target="WWVrkGQW8vriv1KRbUgk-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-46" value="线程id是否相等" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="725" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-55" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="125" y="810" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-56" value="获取到偏向锁" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-58" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="255" y="740" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1" source="WWVrkGQW8vriv1KRbUgk-59" target="WWVrkGQW8vriv1KRbUgk-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-59" value="通过 CAS 尝试替换线程ID" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="104.5" y="840" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-61" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="255" y="850" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="920" as="sourcePoint" />
+            <mxPoint x="170" y="955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-63" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="125" y="925" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-66" value="认为存在竞争环境&lt;br&gt;升级为轻量级锁" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=14;strokeColor=#82b366;fillColor=#d5e8d4;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-67" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="324.5" y="360" as="sourcePoint" />
+            <mxPoint x="324.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-68" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;mark word 内容&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;1.锁标记 ：00&lt;br&gt;2.指向栈中的锁&amp;nbsp;&lt;span style=&quot;text-align: center&quot;&gt;Lock Record 的指针&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-69" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-70" value="&lt;span style=&quot;text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;栈&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;Lock Record拷贝了Mark Word的信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WWVrkGQW8vriv1KRbUgk-71" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; text-align: center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;mark word 内容&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;br&gt;1.锁标记 ：10&lt;br&gt;2.指向互斥锁 Monitor 对象 的指针" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
